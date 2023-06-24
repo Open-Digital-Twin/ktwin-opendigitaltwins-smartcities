@@ -41,7 +41,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxLength",
             "displayName": "Maximum length allowed",
             "description": "Maximum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -50,7 +50,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "minLength",
             "displayName": "Minimum Length",
             "description": "Minimum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -59,7 +59,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxWidth",
             "displayName": "Maximum width allowed",
             "description": "Maximum width allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes . For instance, MTR represents Meter",
@@ -106,7 +106,5 @@
             "writable": true
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

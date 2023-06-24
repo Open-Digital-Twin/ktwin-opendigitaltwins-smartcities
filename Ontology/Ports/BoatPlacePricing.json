@@ -62,7 +62,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxLength",
             "displayName": "Maximum length allowed",
             "description": "Maximum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -71,7 +71,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "minLength",
             "displayName": "Minimum Length",
             "description": "Minimum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -80,7 +80,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxWidth",
             "displayName": "Maximum width allowed",
             "description": "Maximum width allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes . For instance, MTR represents Meter",
@@ -111,101 +111,7 @@
             "description": "Property. Model:'https://schema.org/DateTime'. Type of period defined the date From and Through: A free text or a unique value of the different combination allowed 'season / offSeason' - 'summer / winter' - 'low / medium / high'. enum:'high, low, medium, offSeason, season, summer, winter'",
             "schema": "string",
             "writable": true
-        },
-        {
-            "@type": "Property",
-            "name": "passage",
-            "displayName": "Passage",
-            "description": "Ticket price of the place for passing boats for this category / period. A structured value with 3 subproperties where each items is a string in the format `key` : `price` in Euro €",
-            "schema": {
-                "@type": "Object",
-                "fields": [
-                    {
-                        "name": "day",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "week",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "month",
-                        "schema": "double"
-                    }
-                ]
-            },
-            "writable": true
-        },
-        {
-            "@type": "Property",
-            "name": "resident",
-            "displayName": "Resident",
-            "description": "Ticket price of the place for resident boats for this category / period. A structured value with 2 subproperties where each items is a string in the format `key` : `price` in Euro €",
-            "schema": {
-                "@type": "Object",
-                "fields": [
-                    {
-                        "name": "month",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "annual",
-                        "schema": "double"
-                    }
-                ]
-            },
-            "writable": true
-        },
-        {
-            "@type": "Property",
-            "name": "wintering",
-            "displayName": "Wintering",
-            "description": "Ticket price of the place for wintering boats for this category / period. A structured value with 3 subproperties where each items is a string in the format `key` : `price` in Euro €",
-            "schema": {
-                "@type": "Object",
-                "fields": [
-                    {
-                        "name": "day",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "week",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "month",
-                        "schema": "double"
-                    }
-                ]
-            },
-            "writable": true
-        },
-        {
-            "@type": "Property",
-            "name": "fairing",
-            "displayName": "Fairing",
-            "description": "Ticket price of the place for fairing boats for this category / period. A structured value with 3 subproperties where each items is a string in the format `key` : `price` in Euro €",
-            "schema": {
-                "@type": "Object",
-                "fields": [
-                    {
-                        "name": "day",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "week",
-                        "schema": "double"
-                    },
-                    {
-                        "name": "month",
-                        "schema": "double"
-                    }
-                ]
-            },
-            "writable": true
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

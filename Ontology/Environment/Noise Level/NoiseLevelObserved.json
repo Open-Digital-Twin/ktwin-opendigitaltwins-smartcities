@@ -24,38 +24,26 @@
             "writable": true
         },
         {
-            "@type": [
-                "Property",
-                "SoundPressure"
-            ],
-            "name": "LAS",
+            "@type": "Property",
+            "name": "LASSoundPressure",
             "schema": "double",
             "unit": "decibel"
         },
         {
-            "@type": [
-                "Property",
-                "SoundPressure"
-            ],
-            "name": "LAeq",
+            "@type": "Property",
+            "name": "LAeqSoundPressure",
             "schema": "double",
             "unit": "decibel"
         },
         {
-            "@type": [
-                "Property",
-                "SoundPressure"
-            ],
-            "name": "LAeq_d",
+            "@type": "Property",
+            "name": "LAeq_dSoundPressure",
             "schema": "double",
             "unit": "decibel"
         },
         {
-            "@type": [
-                "Property",
-                "SoundPressure"
-            ],
-            "name": "LAmax",
+            "@type": "Property",
+            "name": "LAmaxSoundPressure",
             "schema": "double",
             "unit": "decibel"
         },

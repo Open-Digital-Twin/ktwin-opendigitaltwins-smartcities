@@ -43,179 +43,120 @@
             }
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "CO2",
+            "@type": "Property",
+            "name": "CO2Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "CO",
+            "@type": "Property",
+            "name": "CODensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PM1",
+            "@type": "Property",
+            "name": "PM1Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PM10",
+            "@type": "Property",
+            "name": "PM10Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PM25",
+            "@type": "Property",
+            "name": "PM25Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NO",
+            "@type": "Property",
+            "name": "NODensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "SO2",
+            "@type": "Property",
+            "name": "SO2Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "C6H6",
+            "@type": "Property",
+            "name": "C6H6Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NI",
+            "@type": "Property",
+            "name": "NIDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "AS",
+            "@type": "Property",
+            "name": "ASDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "CD",
+            "@type": "Property",
+            "name": "CDDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NO2",
+            "@type": "Property",
+            "name": "NO2Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "O3",
+            "@type": "Property",
+            "name": "O3Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PB",
+            "@type": "Property",
+            "name": "PBDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "SH2",
+            "@type": "Property",
+            "name": "SH2Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "VolumeFlowRate"
-            ],
+            "@type": "Property",
             "name": "precipitation",
             "schema": "double",
             "unit": "litrePerSecond"
         },
         {
-            "@type": [
-                "Property"
-            ],
+            "@type": "Property",
             "name": "relativeHumidity",
             "schema": "double"
         },
         {
-            "@type": [
-                "Property",
-                "Temperature"
-            ],
+            "@type": "Property",
             "name": "temperature",
             "schema": "double",
             "unit": "degreeCelsius"
         },
         {
-            "@type": [
-                "Property",
-                "Angle"
-            ],
+            "@type": "Property",
             "name": "WindDirection",
             "schema": "double",
             "unit": "degreeOfArc"
         },
         {
-            "@type": [
-                "Property",
-                "Velocity"
-            ],
+            "@type": "Property",
             "name": "WindSpeed",
             "schema": "double",
             "unit": "knot"
@@ -310,7 +251,5 @@
             "target": "dtmi:digitaltwins:ngsi_ld:city:WeatherObserved;1"
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

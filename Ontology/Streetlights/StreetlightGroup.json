@@ -62,28 +62,6 @@
     },
     {
       "@type": "Property",
-      "name": "switchingOnHours",
-      "schema": {
-        "@type": "Object",
-        "fields": [
-          {
-            "name": "from",
-            "schema": "string"
-          },
-          {
-            "name": "to",
-            "schema": "string"
-          },
-          {
-            "name": "hours",
-            "schema": "string"
-          }
-        ]
-      },
-      "writable": true
-    },
-    {
-      "@type": "Property",
       "name": "switchingMode",
       "schema": {
         "@type": "Enum",

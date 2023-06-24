@@ -16,7 +16,7 @@
       "writable": true
     },
     {
-      "@type": ["Property","Distance"],
+      "@type": "Property",
       "name":"averageGapDistance",
       "description": "Average gap distance between consecutive vehicles.",
       "schema": "double",
@@ -24,7 +24,7 @@
       "writable": true
     },
     {
-      "@type": ["Property","TimeSpan"],
+      "@type": "Property",
       "name": "averageHeadwayTime",
       "description": "Average headway time. Headway time is the time ellapsed between two consecutive vehicles.",
       "schema": "double",
@@ -32,7 +32,7 @@
       "writable": true
     },
     {
-      "@type": ["Property","Distance"],
+      "@type": "Property",
       "name":"averageVehicleLength",
       "description": "Average length of the vehicles transiting during the observation period.",
       "schema": "double",
@@ -40,7 +40,7 @@
       "writable": true
     },
     {
-      "@type": ["Property","Velocity"],
+      "@type": "Property",
       "name":"averageVehicleSpeed",
       "description": " Average speed of the vehicles transiting during the observation period.",
       "schema": "double",

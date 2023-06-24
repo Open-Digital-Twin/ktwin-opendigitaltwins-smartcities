@@ -103,94 +103,6 @@
         },
         {
             "@type": "Property",
-            "name": "hoursAvailable",
-            "displayName": "Hours available",
-            "description": "The hours during which this service or contact is available.",
-            "comment": "Schema.org Type: OpeningHoursSpecification. See dtmi:digitaltwins:schema_org:schemas:OpeningHoursSpecification;1",
-            "schema": {
-                "@type": "Object",
-                "fields": [
-                    {
-                        "name": "closes",
-                        "displayName": "Closes",
-                        "description": "The closing hour of the place or service on the given day(s) of the week.",
-                        "comment": "Schema.org Type: Time",
-                        "schema": "time"
-                    },
-                    {
-                        "name": "dayOfWeek",
-                        "displayName": "Day of week",
-                        "description": "The day of the week for which these opening hours are valid.",
-                        "comment": "Schema.org Type: DayOfWeek (Enumeration)",
-                        "schema": {
-                            "@type": "Enum",
-                            "valueSchema": "string",
-                            "enumValues": [
-                                {
-                                    "name": "monday",
-                                    "displayName": "Monday",
-                                    "enumValue": "Monday"
-                                },
-                                {
-                                    "name": "tuesday",
-                                    "displayName": "Tuesday",
-                                    "enumValue": "Tuesday"
-                                },
-                                {
-                                    "name": "wednesday",
-                                    "displayName": "Wednesday",
-                                    "enumValue": "Wednesday"
-                                },
-                                {
-                                    "name": "thursday",
-                                    "displayName": "Thursday",
-                                    "enumValue": "Thursday"
-                                },
-                                {
-                                    "name": "friday",
-                                    "displayName": "Friday",
-                                    "enumValue": "Friday"
-                                },
-                                {
-                                    "name": "saturday",
-                                    "displayName": "Saturday",
-                                    "enumValue": "Saturday"
-                                },
-                                {
-                                    "name": "sunday",
-                                    "displayName": "Sunday",
-                                    "enumValue": "Sunday"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "name": "opens",
-                        "displayName": "Opens",
-                        "description": "The opening hour of the place or service on the given day(s) of the week.",
-                        "comment": "Schema.org Type: Time",
-                        "schema": "time"
-                    },
-                    {
-                        "name": "validFrom",
-                        "displayName": "Valid from",
-                        "description": "The date when the item becomes valid.",
-                        "comment": "Schema.org Type: Date or DateTime",
-                        "schema": "dateTime"
-                    },
-                    {
-                        "name": "validThrough",
-                        "displayName": "Valid through",
-                        "description": "The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours.",
-                        "comment": "Schema.org Type: Date or DateTime",
-                        "schema": "dateTime"
-                    }
-                ]
-            },
-            "writable": true
-        },
-        {
-            "@type": "Property",
             "name": "name",
             "displayName": "Name",
             "description": "The name of the item.",
@@ -226,7 +138,5 @@
             "writable": true
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

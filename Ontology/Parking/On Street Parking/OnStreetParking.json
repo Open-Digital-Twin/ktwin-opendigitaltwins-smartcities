@@ -78,22 +78,6 @@
         },
         {
             "@type": "Property",
-            "name": "permitActiveHours",
-            "schema": {
-                "@type": "Map",
-                "mapKey": {
-                    "name": "permit",
-                    "schema": "string"
-                },
-                "mapValue": {
-                    "name": "activeHours",
-                    "schema": "string"
-                }
-            },
-            "writable": true
-        },
-        {
-            "@type": "Property",
             "name": "usageScenario",
             "schema": {
                 "@type": "Enum",

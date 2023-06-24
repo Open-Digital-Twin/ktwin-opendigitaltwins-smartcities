@@ -49,123 +49,90 @@
             }
         },
         {
-            "@type": [
-                "Property",
-                "Pressure"
-            ],
+            "@type": "Property",
             "name": "atmosphericPressure",
             "schema": "double",
             "unit": "pascal"
         },
         {
-            "@type": [
-                "Property",
-                "Temperature"
-            ],
+            "@type": "Property",
             "name": "dewpoint",
             "schema": "double",
             "unit": "degreeCelsius"
         },
         {
-            "@type": [
-                "Property",
-                "Temperature"
-            ],
+            "@type": "Property",
             "name": "FeelsLikeTemperature",
             "schema": "double",
             "unit": "degreeCelsius"
         },
         {
-            "@type": [
-                "Property",
-                "Temperature"
-            ],
+            "@type": "Property",
             "name": "temperature",
             "schema": "double",
             "unit": "degreeCelsius"
         },
         {
-            "@type": [
-                "Property",
-                "Illuminance"
-            ],
+            "@type": "Property",
             "name": "illuminance",
             "schema": "double",
             "unit": "lux"
         },
         {
-            "@type": [
-                "Property",
-                "VolumeFlowRate"
-            ],
+            "@type": "Property",
             "name": "precipitation",
             "schema": "double",
             "unit": "litrePerSecond"
         },
         {
-            "@type": [
-                "Property"
-            ],
+            "@type": "Property",
             "name": "relativeHumidity",
             "schema": "double"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Length"
-            ],
             "name": "snowHeight",
             "schema": "double",
             "unit": "centimetre"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Power"
-            ],
             "name": "solarRadiation",
             "schema": "double",
             "unit": "watt"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Length"
-            ],
             "name": "streamGauge",
             "schema": "double",
             "unit": "centimetre"
         },
         {
-            "@type": [
-                "Property"
-            ],
+            "@type": 
+                "Property",
             "name": "uVIndexMax",
             "schema": "double"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Length"
-            ],
             "name": "visibility",
             "schema": "double",
             "unit": "metre"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Angle"
-            ],
             "name": "WindDirection",
             "schema": "double",
             "unit": "degreeOfArc"
         },
         {
-            "@type": [
+            "@type": 
                 "Property",
-                "Velocity"
-            ],
             "name": "WindSpeed",
             "schema": "double",
             "unit": "knot"

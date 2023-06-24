@@ -70,7 +70,7 @@
                 "writable": true
             },
             {
-                "@type": ["Property", "Length"],
+                "@type": "Property",
                 "name": "length",
                 "displayName": "Length",
                 "description": "Length of this beach",
@@ -79,7 +79,7 @@
                 "writable": true
             },
             {
-                "@type": ["Property", "Length"],
+                "@type": "Property",
                 "name": "width",
                 "displayName": "Width",
                 "description": "Width of this beach",

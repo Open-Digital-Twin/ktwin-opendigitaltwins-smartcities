@@ -116,7 +116,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxLength",
             "displayName": "Maximum length allowed",
             "description": "Maximum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -125,7 +125,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "minLength",
             "displayName": "Minimum Length",
             "description": "Minimum length allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes. For instance, MTR represents Meter",
@@ -134,7 +134,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxWidth",
             "displayName": "Maximum width allowed",
             "description": "Maximum width allowed to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes . For instance, MTR represents Meter",
@@ -143,7 +143,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Mass"],
+            "@type": "Property",
             "name" : "maxTonnage",
             "displayName": "Maximum Tonnage",
             "description": "Maximum tonnage authorized to access the harbor. The unit code (text) is given using the UN/CEFACT Common Codes . For instance, TNE represents Tonne Metric",
@@ -159,7 +159,5 @@
             "schema": "dtmi:digitaltwins:ngsi_ld:city:OpeningHourSpecification;1"
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

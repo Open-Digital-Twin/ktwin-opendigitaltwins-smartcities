@@ -6,163 +6,110 @@
     "displayName": "WaterQualityObserved",
     "contents": [
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
+            "@type": "Property",
             "name": "Chla",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "Cl",
+            "@type": "Property",
+            "name": "ClDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NH3",
+            "@type": "Property",
+            "name": "NH3Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NH4",
+            "@type": "Property",
+            "name": "NH4Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "NO3",
+            "@type": "Property",
+            "name": "NO3Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "O2",
+            "@type": "Property",
+            "name": "O2Density",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PC",
+            "@type": "Property",
+            "name": "PCDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "PE",
+            "@type": "Property",
+            "name": "PEDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Current"
-            ],
-            "name": "conductance",
+            "@type": "Property",
+            "name": "conductanceCurrent",
             "schema": "double",
             "unit": "ampere"
         },
         {
-            "@type": [
-                "Property",
-                "Current"
-            ],
-            "name": "conductivity",
+            "@type": "Property",
+            "name": "conductivityCurrent",
             "schema": "double",
             "unit": "ampere"
         },
         {
-            "@type": [
-                "Property",
-                "Voltage"
-            ],
-            "name": "orp",
+            "@type": "Property",
+            "name": "orpVoltage",
             "schema": "double",
             "unit": "millivolt"
         },
         {
-            "@type": [
-                "Property"
-            ],
+            "@type": "Property",
             "name": "pH",
             "schema": "double"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "salinity",
+            "@type": "Property",
+            "name": "salinityDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "tds",
+            "@type": "Property",
+            "name": "tdsDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Density"
-            ],
-            "name": "tss",
+            "@type": "Property",
+            "name": "tssDensity",
             "schema": "double",
             "unit": "gramPerCubicMetre"
         },
         {
-            "@type": [
-                "Property",
-                "Temperature"
-            ],
+            "@type": "Property",
             "name": "temperature",
             "schema": "double",
             "unit": "degreeCelsius"
         },
         {
-            "@type": [
-                "Property",
-                "Distance"
-            ],
-            "name": "turbidity",
+            "@type": "Property",
+            "name": "turbidityDistance",
             "schema": "double",
             "unit": "nanometre"
         },
         {
             "@type": "Telemetry",
             "name": "measurand",
-            "schema": {
-                "@type": "Array",
-                "elementSchema": "string"
-            }
+            "schema": "string"
         }
     ]
 }

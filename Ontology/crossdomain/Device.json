@@ -54,7 +54,5 @@
             "target": "dtmi:digitaltwins:ngsi_ld:city:DeviceModel;1"
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

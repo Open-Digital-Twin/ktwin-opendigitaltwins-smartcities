@@ -99,7 +99,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxLength",
             "displayName": "Maximum Length",
             "description": "A Maximum length allowed to access the harbor",
@@ -108,7 +108,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "minLength",
             "displayName": "Minimum Length",
             "description": "A Minimum length allowed to access the harbor",
@@ -117,7 +117,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Length"],
+            "@type": "Property",
             "name" : "maxWidth",
             "displayName": "Maximum Width",
             "description": "A Maximum width allowed to access the harbor",
@@ -126,7 +126,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Mass"],
+            "@type": "Property",
             "name" : "maxTonnage",
             "displayName": "Maximum Tonnage",
             "description": "Maximum tonnage authorized to access the harbor",
@@ -273,7 +273,5 @@
             "writable": true
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }

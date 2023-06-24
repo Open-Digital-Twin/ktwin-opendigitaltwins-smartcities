@@ -68,7 +68,5 @@
             "schema": "dtmi:digitaltwins:ngsi_ld:city:geoLocation;1"
         }
     ],
-    "@context": [
-        "dtmi:dtdl:context;2"
-    ]
+    "@context": "dtmi:dtdl:context;2"
 }
