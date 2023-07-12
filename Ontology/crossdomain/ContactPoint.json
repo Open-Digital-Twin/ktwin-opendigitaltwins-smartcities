@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:ContactPoint;1",
+    "@id": "ktwin:ngsi_ld:city:ContactPoint",
     "@type": "Interface",
     "displayName": "Contact point",
     "description": "A contact point—for example, a Customer Complaints department.",

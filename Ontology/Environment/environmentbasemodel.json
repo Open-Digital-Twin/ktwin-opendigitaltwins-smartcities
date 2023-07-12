@@ -1,9 +1,9 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:EnvironmentBaseModel;1",
+    "@id": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
     "@type": "Interface",
     "displayName": "EnvironmentBaseModel",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:NGSILDBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -22,7 +22,7 @@
             "name": "refPointOfInterest",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:PointOfInterest;1"
+            "target": "ktwin:ngsi_ld:city:PointOfInterest"
         }
     ]
 }

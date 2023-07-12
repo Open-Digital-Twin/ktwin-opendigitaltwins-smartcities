@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:WaterQualityObserved;1",
+    "@id": "ktwin:ngsi_ld:city:WaterQualityObserved",
     "@type": "Interface",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:EnvironmentBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
     "displayName": "WaterQualityObserved",
     "contents": [
         {

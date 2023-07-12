@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:chargeType;1",
+    "@id": "ktwin:ngsi_ld:city:chargeType",
     "@type": "Interface",
     "displayName": "ChargeType",
     "@context" : "dtmi:dtdl:context;2",

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1",
+    "@id": "ktwin:ngsi_ld:city:AirQualityLevel",
     "@type": "Interface",
     "displayName": "AirQualityLevel",
     "contents": [

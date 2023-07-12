@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:digitaltwins:s4city:city:CityObject;1",
+    "@id": "ktwin:s4city:city:CityObject",
     "@type": "Interface",
     "displayName": "City Object",
-    "extends": "dtmi:digitaltwins:GeoSPARQL:Feature;1",
+    "extends": "ktwin:GeoSPARQL:Feature",
     "description": "Generic class for describing city objects.",
     "contents": [
         

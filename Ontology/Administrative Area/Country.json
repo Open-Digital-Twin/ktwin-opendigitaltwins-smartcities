@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:digitaltwins:s4city:city:Country;1",
+    "@id": "ktwin:s4city:city:Country",
     "@type": "Interface",
     "displayName": "Country",
-    "extends": "dtmi:digitaltwins:s4city:city:AdministrativeArea;1",
+    "extends": "ktwin:s4city:city:AdministrativeArea",
     "description": "A country is a region that is identified as a distinct national entity in political geography. (https://en.wikipedia.org/wiki/Country)",
     "contents": [
 

@@ -1,21 +1,21 @@
 {
-  "@id": "dtmi:digitaltwins:ngsi_ld:city:Streetlight;1",
+  "@id": "ktwin:ngsi_ld:city:Streetlight",
   "@type": "Interface",
   "displayName": "Streetlight",
   "description": "A Street light. Adapted from https://github.com/smart-data-models/dataModel.Streetlighting/tree/master/Streetlight data model", 
-  "extends": "dtmi:digitaltwins:ngsi_ld:city:NGSILDBaseModel;1",
+  "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
   "contents": [
     {
       "@type": "Relationship",
       "name": "refStreetlightModel",
       "description": "Streetlight's model.",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:StreetlightModel;1"
+      "target": "ktwin:ngsi_ld:city:StreetlightModel"
     },
     {
       "@type": "Relationship",
       "name": "refStreetlightControlCabinet",
       "description": "If this streetlight is individually controlled, reference to the control cabinet in charge of.",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:StreetlightControlCabinet;1"
+      "target": "ktwin:ngsi_ld:city:StreetlightControlCabinet"
     },
     {
       "@type": "Property",
@@ -91,13 +91,13 @@
       "@type": "Relationship",
       "name": "refDevice",
       "description": "Reference to the device(s) used to monitor this streetligth. List of Reference to entity(ies) of type Device.",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:Device;1"
+      "target": "ktwin:ngsi_ld:city:Device"
     },
     {
       "@type": "Relationship",
       "name": "refStreetlightGroup",
       "description": "Streetlight's group, if this streetlight belongs to any group.",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:StreetlightGroup;1"
+      "target": "ktwin:ngsi_ld:city:StreetlightGroup"
     },
     {
       "@type": "Property",

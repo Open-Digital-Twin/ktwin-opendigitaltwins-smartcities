@@ -1,8 +1,8 @@
 {
-  "@id": "dtmi:digitaltwins:ngsi_ld:city:StreetlightControlCabinet;1",
+  "@id": "ktwin:ngsi_ld:city:StreetlightControlCabinet",
   "@type": "Interface",
   "displayName": "StreetlightControlCabinet",
-  "extends": "dtmi:digitaltwins:ngsi_ld:city:NGSILDBaseModel;1",
+  "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
   "contents": [
     {
       "@type": "Property",
@@ -14,7 +14,7 @@
       "@type": "Relationship",
       "name": "refStreetlightGroup",
       "description": "Streetlight group(s) controlled. List of references to entities of type StreetlightGroup",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:StreetlightGroup;1"
+      "target": "ktwin:ngsi_ld:city:StreetlightGroup"
     },
     {
       "@type": "Property",
@@ -102,7 +102,7 @@
       "@type": "Relationship",
       "name": "refDevice",
       "description": "Reference to the device(s) used to monitor this control cabinet.",
-      "target": "dtmi:digitaltwins:ngsi_ld:city:device;1"
+      "target": "ktwin:ngsi_ld:city:device"
     },
     {
       "@type": "Property",

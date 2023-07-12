@@ -1,9 +1,9 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:ParkingSpot;1",
+    "@id": "ktwin:ngsi_ld:city:ParkingSpot",
     "@type": "Interface",
     "displayName": "ParkingSpot",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:NGSILDBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -95,35 +95,35 @@
         {
             "@type": "Component",
             "name": "areaServed",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:areaServed;1"
+            "schema": "ktwin:ngsi_ld:city:areaServed"
         },
         {
             "@type": "Relationship",
             "name": "refParkingGroup",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:ParkingGroup;1"
+            "target": "ktwin:ngsi_ld:city:ParkingGroup"
         },
         {
             "@type": "Relationship",
             "name": "refOnStreetParking",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:OnStreetParking;1"
+            "target": "ktwin:ngsi_ld:city:OnStreetParking"
         },
         {
             "@type": "Relationship",
             "name": "refOffStreetParking",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:OffStreetParking;1"
+            "target": "ktwin:ngsi_ld:city:OffStreetParking"
         },
         {
             "@type": "Relationship",
             "name": "refdevice",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:Device;1"
+            "target": "ktwin:ngsi_ld:city:Device"
         }
     ]
 }

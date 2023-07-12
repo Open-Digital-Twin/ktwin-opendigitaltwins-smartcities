@@ -1,14 +1,14 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:CrowdFlowObserved;1",
+    "@id": "ktwin:ngsi_ld:city:CrowdFlowObserved",
     "@type": "Interface",
     "displayName": "CrowdFlowObserved",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:EnvironmentBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
     "contents": [
         {
             "@type": "Relationship",
             "name": "refRoadSegment",
             "description": "Concerned road segment on which the observation has been made. Model:'https://schema.org/URL",
-            "target": "dtmi:digitaltwins:ngsi_ld:city:RoadSegment;1"
+            "target": "ktwin:ngsi_ld:city:RoadSegment"
         },
         {
             "@type": "Property",

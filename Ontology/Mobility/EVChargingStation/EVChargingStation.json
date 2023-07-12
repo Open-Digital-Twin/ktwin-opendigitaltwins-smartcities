@@ -1,7 +1,7 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:EVChargingStation;1",
+    "@id": "ktwin:ngsi_ld:city:EVChargingStation",
     "@type": "Interface",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:NGSILDBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
     "displayName": "EV Charging Station",
     "description": "EV Charging Station",
     "contents": [
@@ -220,7 +220,7 @@
             "@type": "Component",
             "name": "contactPoint",
             "description": "Charging station contact point. Model:'https://schema.org/contactPoint'.",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:ContactPoint;1"
+            "schema": "ktwin:ngsi_ld:city:ContactPoint"
         },
         {
             "@type": "Property",

@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:AirQualityObserved;1",
+    "@id": "ktwin:ngsi_ld:city:AirQualityObserved",
     "@type": "Interface",
     "displayName": "AirQualityObserved",
-    "extends": "dtmi:digitaltwins:ngsi_ld:city:EnvironmentBaseModel;1",
+    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -164,91 +164,91 @@
         {
             "@type": "Component",
             "name": "airQualityLevel",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "CO2_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "CO_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "PM10_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "PM25_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "NO_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "SO2_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "C6H6level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "NI_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "AS_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "CD_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "NO2_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "O3_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "PB_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Component",
             "name": "SH2_level",
-            "schema": "dtmi:digitaltwins:ngsi_ld:city:AirQualityLevel;1"
+            "schema": "ktwin:ngsi_ld:city:AirQualityLevel"
         },
         {
             "@type": "Relationship",
             "name": "refDevice",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:Device;1"
+            "target": "ktwin:ngsi_ld:city:Device"
         },
         {
             "@type": "Relationship",
             "name": "refWeatherObserved",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "dtmi:digitaltwins:ngsi_ld:city:WeatherObserved;1"
+            "target": "ktwin:ngsi_ld:city:WeatherObserved"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

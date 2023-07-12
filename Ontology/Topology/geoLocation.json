@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:geoLocation;1",
+    "@id": "ktwin:ngsi_ld:city:geoLocation",
     "@type": "Interface",
     "displayName": "GeoLocation",
     "contents": [

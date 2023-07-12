@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:digitaltwins:s4city:city:AdministrativeArea;1",
+    "@id": "ktwin:s4city:city:AdministrativeArea",
     "@type": "Interface",
     "displayName": "Administrative Area",
-    "extends": "dtmi:digitaltwins:GeoSPARQL:Feature;1",
+    "extends": "ktwin:GeoSPARQL:Feature",
     "description": "An administrative division, unit, entity, area or region, also referred to as a subnational entity, constituent unit, or country subdivision, is a portion of a country or other region delineated for the purpose of administration. (https://en.wikipedia.org/wiki/Administrative_division)",
     "contents": [
 

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:areaServed;1",
+    "@id": "ktwin:ngsi_ld:city:areaServed",
     "@type": "Interface",
     "displayName": "AreaServed",
     "@context" : "dtmi:dtdl:context;2",

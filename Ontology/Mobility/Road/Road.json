@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:city:Road;1",
+    "@id": "ktwin:ngsi_ld:city:Road",
     "@type": "Interface",
     "displayName": "Road",
     "contents": [
