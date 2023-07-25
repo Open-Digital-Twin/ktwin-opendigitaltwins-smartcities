@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:OpeningHourSpecification",
+    "@id": "ngsi_ld:city:OpeningHourSpecification",
     "@type": "Interface",
     "displayName": "Opening hours specification",
     "contents": [
@@ -7,49 +7,49 @@
             "@type": "Property",
             "name": "mondayOpening",
             "displayName": "Opening hours on Monday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "tuesdayOpening",
             "displayName": "Opening hours on Tuesday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "wednesdayOpening",
             "displayName": "Opening hours on Wednesday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "thursdayOpening",
             "displayName": "Opening hours on Thursday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "fridayOpening",
             "displayName": "Opening hours on Friday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "saturdayOpening",
             "displayName": "Opening hours on Saturday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         },
         {
             "@type": "Property",
             "name": "sundayOpening",
             "displayName": "Opening hours on Sunday",
-            "schema": "ktwin:ngsi_ld:city:openinghoursForDay",
+            "schema": "ngsi_ld:city:openinghoursForDay",
             "writable": true
         }
     ],

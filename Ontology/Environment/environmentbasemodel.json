@@ -1,9 +1,9 @@
 {
-    "@id": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
+    "@id": "ngsi_ld:city:EnvironmentBaseModel",
     "@type": "Interface",
     "displayName": "EnvironmentBaseModel",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -22,7 +22,7 @@
             "name": "refPointOfInterest",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "ktwin:ngsi_ld:city:PointOfInterest"
+            "target": "ngsi_ld:city:PointOfInterest"
         }
     ]
 }

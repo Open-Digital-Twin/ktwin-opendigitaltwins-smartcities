@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:BoatPlacesAvailable",
+    "@id": "ngsi_ld:city:BoatPlacesAvailable",
     "@type": "Interface",
     "displayName": "Boat Places available",
     "description": "Global description: The purpose of the data model is to provide information on the availability of mooring rings for boats in the port by category. The information received relates only to pleasure boats and excludes commercial and passenger transport boats. The information on the Spot categories for boats is taken from the ISO 8666 standard.",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.Ports/blob/master/BoatPlacesAvailable/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -73,7 +73,7 @@
             "description": "Port that belongs to",
             "displayName": "belongs to",
             "comment": "Required relationship",
-            "target": "ktwin:ngsi_ld:city:SeaportFacilities",
+            "target": "ngsi_ld:city:SeaportFacilities",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true
@@ -83,7 +83,7 @@
             "name": "refPointOfInterest",
             "description": "Point of Interest that the element has relation to",
             "displayName": "related to",
-            "target": "ktwin:ngsi_ld:city:PointOfInterest",
+            "target": "ngsi_ld:city:PointOfInterest",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true

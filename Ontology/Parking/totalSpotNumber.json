@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:totalSpotNumber",
+    "@id": "ngsi_ld:city:totalSpotNumber",
     "@type": "Interface",
     "displayName": "TotalSpotNumber",
     "@context" : "dtmi:dtdl:context;2",

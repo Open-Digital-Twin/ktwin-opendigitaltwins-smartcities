@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:Address",
+    "@id": "ngsi_ld:city:Address",
     "@type": "Interface",
     "displayName": "Address",
     "contents":[

@@ -1,8 +1,8 @@
 {
-  "@id": "ktwin:ngsi_ld:city:StreetlightModel",
+  "@id": "ngsi_ld:city:StreetlightModel",
   "@type": "Interface",
   "displayName": "StreetlightModel",
-  "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+  "extends": "ngsi_ld:city:NGSILDBaseModel",
   "contents": [
     {
       "@type": "Property",

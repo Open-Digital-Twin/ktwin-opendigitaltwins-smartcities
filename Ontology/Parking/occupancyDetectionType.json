@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:occupancyDetectionType",
+    "@id": "ngsi_ld:city:occupancyDetectionType",
     "@type": "Interface",
     "displayName": "OccupancyDetectionType",
     "@context" : "dtmi:dtdl:context;2",

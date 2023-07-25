@@ -1,14 +1,14 @@
 {
-    "@id": "ktwin:ngsi_ld:city:CrowdFlowObserved",
+    "@id": "ngsi_ld:city:CrowdFlowObserved",
     "@type": "Interface",
     "displayName": "CrowdFlowObserved",
-    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
+    "extends": "ngsi_ld:city:EnvironmentBaseModel",
     "contents": [
         {
             "@type": "Relationship",
             "name": "refRoadSegment",
             "description": "Concerned road segment on which the observation has been made. Model:'https://schema.org/URL",
-            "target": "ktwin:ngsi_ld:city:RoadSegment"
+            "target": "ngsi_ld:city:RoadSegment"
         },
         {
             "@type": "Property",

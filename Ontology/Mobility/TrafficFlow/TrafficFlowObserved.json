@@ -1,8 +1,8 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "ktwin:ngsi_ld:city:TrafficFlowObserved",
+  "@id": "ngsi_ld:city:TrafficFlowObserved",
   "@type": "Interface",
-  "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+  "extends": "ngsi_ld:city:NGSILDBaseModel",
   "displayName": "TrafficFlowObserved",
   "description": "An observation of traffic flow conditions at a certain place and time.",
   "comment": "Adapted from https://github.com/smart-data-models/dataModel.Transportation",
@@ -99,7 +99,7 @@
       "@type": "Relationship",
       "name": "laneId",
       "description": "Lane identifier. Lane identification is done using the conventions defined by RoadSegment entity which are based on [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right).",
-      "target": "ktwin:ngsi_ld:city:RoadSegment"
+      "target": "ngsi_ld:city:RoadSegment"
     },
     {
       "@type": "Property",
@@ -112,7 +112,7 @@
       "@type": "Relationship",
       "name": "refRoadSegment",
       "description": "Concerned road segment on which the observation has been made. Reference to an entity of type RoadSegment",
-      "target": "ktwin:ngsi_ld:city:RoadSegment"
+      "target": "ngsi_ld:city:RoadSegment"
     },
     {
       "@type": "Property",

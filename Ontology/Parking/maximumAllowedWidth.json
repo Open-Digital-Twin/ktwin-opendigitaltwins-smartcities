@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:maximumAllowedWidth",
+    "@id": "ngsi_ld:city:maximumAllowedWidth",
     "@type": "Interface",
     "displayName": "MaximumAllowedWidth",
     "@context" : "dtmi:dtdl:context;2",

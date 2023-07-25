@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:Device",
+    "@id": "ngsi_ld:city:Device",
     "@type": "Interface",
     "displayName": "Device",
     "contents": [
@@ -36,7 +36,7 @@
         {
             "@type": "Component",
             "name": "category",
-            "schema": "ktwin:ngsi_ld:city:deviceCategory",
+            "schema": "ngsi_ld:city:deviceCategory",
             "displayName": "Category"
         },
         {
@@ -51,7 +51,7 @@
             "name": "refDeviceModel",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "ktwin:ngsi_ld:city:DeviceModel"
+            "target": "ngsi_ld:city:DeviceModel"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

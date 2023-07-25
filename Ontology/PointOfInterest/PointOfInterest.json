@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:PointOfInterest",
+    "@id": "ngsi_ld:city:PointOfInterest",
     "@type": "Interface",
     "displayName": "Point of Interest",
     "description": "Global description: This entity contains a harmonised geographic description of a Point of Interest",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.PointOfInterest/blob/master/PointOfInterest/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -28,7 +28,7 @@
             "name": "contactPoint",
             "displayName": "Contact point",
             "description": "Contact point for the point of interest, e.g. Museum",
-            "schema": "ktwin:ngsi_ld:city:ContactPoint"
+            "schema": "ngsi_ld:city:ContactPoint"
         },
         {
             "@type": "Property",

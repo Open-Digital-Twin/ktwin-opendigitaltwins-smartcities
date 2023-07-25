@@ -1,9 +1,9 @@
 {
-    "@id": "ktwin:ngsi_ld:city:OnStreetParking",
+    "@id": "ngsi_ld:city:OnStreetParking",
     "@type": "Interface",
     "displayName": "OnStreetParking",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -146,84 +146,84 @@
         {
             "@type": "Component",
             "name": "areBordersMarked",
-            "schema": "ktwin:ngsi_ld:city:areBordersMarked"
+            "schema": "ngsi_ld:city:areBordersMarked"
         },
         {
             "@type": "Component",
             "name": "availableSpotNumber",
-            "schema": "ktwin:ngsi_ld:city:availableSpotNumber"
+            "schema": "ngsi_ld:city:availableSpotNumber"
         },
         {
             "@type": "Component",
             "name": "averageSpotLength",
-            "schema": "ktwin:ngsi_ld:city:averageSpotLength"
+            "schema": "ngsi_ld:city:averageSpotLength"
         },
         {
             "@type": "Component",
             "name": "averageSpotWidth",
-            "schema": "ktwin:ngsi_ld:city:averageSpotWidth"
+            "schema": "ngsi_ld:city:averageSpotWidth"
         },
         {
             "@type": "Component",
             "name": "maximumParkingDuration",
-            "schema": "ktwin:ngsi_ld:city:maximumParkingDuration"
+            "schema": "ngsi_ld:city:maximumParkingDuration"
         },
         {
             "@type": "Component",
             "name": "occupancyDetectionType",
-            "schema": "ktwin:ngsi_ld:city:occupancyDetectionType"
+            "schema": "ngsi_ld:city:occupancyDetectionType"
         },
         {
             "@type": "Component",
             "name": "parkingMode",
-            "schema": "ktwin:ngsi_ld:city:parkingMode"
+            "schema": "ngsi_ld:city:parkingMode"
         },
         {
             "@type": "Component",
             "name": "acceptedPaymentMethod",
-            "schema": "ktwin:ngsi_ld:city:acceptedPaymentMethod"
+            "schema": "ngsi_ld:city:acceptedPaymentMethod"
         },
         {
             "@type": "Component",
             "name": "allowedVehicleType",
-            "schema": "ktwin:ngsi_ld:city:allowedVehicleType"
+            "schema": "ngsi_ld:city:allowedVehicleType"
         },
         {
             "@type": "Component",
             "name": "areaServed",
-            "schema": "ktwin:ngsi_ld:city:areaServed"
+            "schema": "ngsi_ld:city:areaServed"
         },
         {
             "@type": "Component",
             "name": "chargeType",
-            "schema": "ktwin:ngsi_ld:city:chargeType"
+            "schema": "ngsi_ld:city:chargeType"
         },
         {
             "@type": "Component",
             "name": "extraSpotNumber",
-            "schema": "ktwin:ngsi_ld:city:extraSpotNumber"
+            "schema": "ngsi_ld:city:extraSpotNumber"
         },
         {
             "@type": "Component",
             "name": "requiredPermit",
-            "schema": "ktwin:ngsi_ld:city:requiredPermit"
+            "schema": "ngsi_ld:city:requiredPermit"
         },
         {
             "@type": "Component",
             "name": "totalSpotNumber",
-            "schema": "ktwin:ngsi_ld:city:totalSpotNumber"
+            "schema": "ngsi_ld:city:totalSpotNumber"
         },
         {
             "@type": "Relationship",
             "name": "refParkingGroup",
             "minMultiplicity": 0,
-            "target": "ktwin:ngsi_ld:city:ParkingGroup"
+            "target": "ngsi_ld:city:ParkingGroup"
         },
         {
             "@type": "Relationship",
             "name": "refParkingSpot",
             "minMultiplicity": 0,
-            "target": "ktwin:ngsi_ld:city:ParkingSpot"
+            "target": "ngsi_ld:city:ParkingSpot"
         }
     ]
 }

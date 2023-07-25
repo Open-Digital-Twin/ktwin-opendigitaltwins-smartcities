@@ -1,21 +1,21 @@
 {
-  "@id": "ktwin:ngsi_ld:city:Streetlight",
+  "@id": "ngsi_ld:city:Streetlight",
   "@type": "Interface",
   "displayName": "Streetlight",
   "description": "A Street light. Adapted from https://github.com/smart-data-models/dataModel.Streetlighting/tree/master/Streetlight data model", 
-  "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+  "extends": "ngsi_ld:city:NGSILDBaseModel",
   "contents": [
     {
       "@type": "Relationship",
       "name": "refStreetlightModel",
       "description": "Streetlight's model.",
-      "target": "ktwin:ngsi_ld:city:StreetlightModel"
+      "target": "ngsi_ld:city:StreetlightModel"
     },
     {
       "@type": "Relationship",
       "name": "refStreetlightControlCabinet",
       "description": "If this streetlight is individually controlled, reference to the control cabinet in charge of.",
-      "target": "ktwin:ngsi_ld:city:StreetlightControlCabinet"
+      "target": "ngsi_ld:city:StreetlightControlCabinet"
     },
     {
       "@type": "Property",
@@ -91,13 +91,13 @@
       "@type": "Relationship",
       "name": "refDevice",
       "description": "Reference to the device(s) used to monitor this streetligth. List of Reference to entity(ies) of type Device.",
-      "target": "ktwin:ngsi_ld:city:Device"
+      "target": "ngsi_ld:city:Device"
     },
     {
       "@type": "Relationship",
       "name": "refStreetlightGroup",
       "description": "Streetlight's group, if this streetlight belongs to any group.",
-      "target": "ktwin:ngsi_ld:city:StreetlightGroup"
+      "target": "ngsi_ld:city:StreetlightGroup"
     },
     {
       "@type": "Property",

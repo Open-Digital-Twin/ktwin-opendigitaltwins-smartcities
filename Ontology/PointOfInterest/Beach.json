@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:Beach",
+    "@id": "ngsi_ld:city:Beach",
     "@type": "Interface",
     "displayName": "Beach",
     "description": "Global description: This entity contains a harmonised geographic description of a beach.",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.PointOfInterest/blob/master/Beach/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
             {
                 "@type": "Property",

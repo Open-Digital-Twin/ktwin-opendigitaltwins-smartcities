@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:geoLocation",
+    "@id": "ngsi_ld:city:geoLocation",
     "@type": "Interface",
     "displayName": "GeoLocation",
     "contents": [

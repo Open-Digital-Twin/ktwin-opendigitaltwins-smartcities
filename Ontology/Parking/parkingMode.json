@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:parkingMode",
+    "@id": "ngsi_ld:city:parkingMode",
     "@type": "Interface",
     "displayName": "ParkingMode",
     "@context" : "dtmi:dtdl:context;2",

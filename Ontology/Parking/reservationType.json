@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:reservationType",
+    "@id": "ngsi_ld:city:reservationType",
     "@type": "Interface",
     "displayName": "ReservationType",
     "@context" : "dtmi:dtdl:context;2",

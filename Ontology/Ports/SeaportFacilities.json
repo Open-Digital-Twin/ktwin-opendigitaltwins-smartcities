@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:SeaportFacilities",
+    "@id": "ngsi_ld:city:SeaportFacilities",
     "@type": "Interface",
     "displayName": "Seaport Facilities",
     "description": "Global description: The Data Model is intended to provide information about ports that can accommodate pleasure craft, commerce or passenger transport. It permit to represent the parameters of each port, its location, its mooring capacities and the free or paid services associated with it provided directly by the port or by professionals working on or near the port.",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.Ports/blob/master/SeaportFacilities/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -36,7 +36,7 @@
             "@type": "Component",
             "name": "contactPoint",
             "displayName": "Contact point",
-            "schema": "ktwin:ngsi_ld:city:ContactPoint"
+            "schema": "ngsi_ld:city:ContactPoint"
         },
         {
             "@type": "Property",
@@ -156,7 +156,7 @@
             "name": "openingHoursSpecification",
             "displayName": "Opening hours",
             "description": "A structured value providing information about the opening hours of a place or a certain service inside a place.",
-            "schema": "ktwin:ngsi_ld:city:OpeningHourSpecification"
+            "schema": "ngsi_ld:city:OpeningHourSpecification"
         },
         {
             "@type": "Property",
@@ -181,7 +181,7 @@
             "name": "refBoatAuthorized",
             "displayName": "authorizes",
             "description": "Reference to a list of Entity.",
-            "target": "ktwin:ngsi_ld:city:BoatAuthorized",
+            "target": "ngsi_ld:city:BoatAuthorized",
             "writable": true
         },
         {
@@ -189,7 +189,7 @@
             "name": "refBoatPlaceAvailable",
             "displayName": "has places available",
             "description": "Reference to a list of Entity.",
-            "target": "ktwin:ngsi_ld:city:BoatPlacesAvailable",
+            "target": "ngsi_ld:city:BoatPlacesAvailable",
             "writable": true
         },
         {
@@ -197,7 +197,7 @@
             "name": "refBoatPlacePricing",
             "displayName": "priced by",
             "description": "Reference to a list of Entity.",
-            "target": "ktwin:ngsi_ld:city:BoatPlacePricing",
+            "target": "ngsi_ld:city:BoatPlacePricing",
             "writable": true
         },
         {
@@ -205,7 +205,7 @@
             "name": "refDevice",
             "displayName": "has main device",
             "description": "Reference to the Main Entity Device if used as second link",
-            "target": "ktwin:ngsi_ld:city:Device",
+            "target": "ngsi_ld:city:Device",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true
@@ -215,7 +215,7 @@
             "name": "refPointOfInterest",
             "description": "Point of Interest that the element has relation to",
             "displayName": "related to",
-            "target": "ktwin:ngsi_ld:city:PointOfInterest",
+            "target": "ngsi_ld:city:PointOfInterest",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true

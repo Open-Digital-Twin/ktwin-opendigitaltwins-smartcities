@@ -1,8 +1,8 @@
 {
-    "@id": "ktwin:s4city:city:CityObject",
+    "@id": "s4city:city:CityObject",
     "@type": "Interface",
     "displayName": "City Object",
-    "extends": "ktwin:GeoSPARQL:Feature",
+    "extends": "GeoSPARQL:Feature",
     "description": "Generic class for describing city objects.",
     "contents": [
         

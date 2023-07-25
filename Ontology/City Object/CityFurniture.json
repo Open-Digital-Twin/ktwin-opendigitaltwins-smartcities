@@ -1,8 +1,8 @@
 {
-    "@id": "ktwin:s4city:city:CityFurniture",
+    "@id": "s4city:city:CityFurniture",
     "@type": "Interface",
     "displayName": "City Furniture",
-    "extends": "ktwin:s4city:city:CityObject",
+    "extends": "s4city:city:CityObject",
     "description": "",
     "contents": [
         

@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:Museum",
+    "@id": "ngsi_ld:city:Museum",
     "@type": "Interface",
     "displayName": "Museum",
     "description": "Global description: A museum",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.PointOfInterest/blob/master/Museum/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -37,7 +37,7 @@
             "name": "contactPoint",
             "displayName": "Contact point",
             "description": "Contact point for the museum.",
-            "schema": "ktwin:ngsi_ld:city:ContactPoint"
+            "schema": "ngsi_ld:city:ContactPoint"
         },
         {
             "@type": "Property",
@@ -78,7 +78,7 @@
             "name": "openingHoursSpecification",
             "displayName": "Opening hours",
             "description": "A structured value providing information about the opening hours of a place or a certain service inside a place.",
-            "schema": "ktwin:ngsi_ld:city:OpeningHourSpecification"
+            "schema": "ngsi_ld:city:OpeningHourSpecification"
         },
         {
             "@type": "Property",

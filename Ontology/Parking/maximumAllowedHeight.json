@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:maximumAllowedHeight",
+    "@id": "ngsi_ld:city:maximumAllowedHeight",
     "@type": "Interface",
     "displayName": "MaximumAllowedHeight",
     "@context" : "dtmi:dtdl:context;2",

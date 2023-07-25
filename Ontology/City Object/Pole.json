@@ -1,39 +1,39 @@
 {
-    "@id": "ktwin:city:Pole",
+    "@id": "city:Pole",
     "@type": "Interface",
     "displayName": "Pole",
-    "extends": "ktwin:s4city:city:CityFurniture",
+    "extends": "s4city:city:CityFurniture",
     "description": "pole",
     "contents": [
         {
             "@type": "Relationship",
             "name": "refStreetlight",
-            "target": "ktwin:ngsi_ld:city:Streetlight"
+            "target": "ngsi_ld:city:Streetlight"
         },
         {
             "@type": "Relationship",
             "name": "refAirQualityObserved",
-            "target": "ktwin:ngsi_ld:city:AirQualityObserved"
+            "target": "ngsi_ld:city:AirQualityObserved"
         },
         {
             "@type": "Relationship",
             "name": "refNoiseLevel",
-            "target": "ktwin:ngsi_ld:city:NoiseLevelObserved"
+            "target": "ngsi_ld:city:NoiseLevelObserved"
         },
         {
             "@type": "Relationship",
             "name": "refWeather",
-            "target": "ktwin:ngsi_ld:city:WeatherObserved"
+            "target": "ngsi_ld:city:WeatherObserved"
         },
         {
             "@type": "Relationship",
             "name": "refCrowdFlow",
-            "target": "ktwin:ngsi_ld:city:CrowdFlowObserved"
+            "target": "ngsi_ld:city:CrowdFlowObserved"
         },
         {
             "@type": "Relationship",
             "name": "refEVChargingStation",
-            "target": "ktwin:ngsi_ld:city:EVChargingStation"
+            "target": "ngsi_ld:city:EVChargingStation"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

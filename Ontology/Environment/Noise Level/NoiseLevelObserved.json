@@ -1,7 +1,7 @@
 {
-    "@id": "ktwin:ngsi_ld:city:NoiseLevelObserved",
+    "@id": "ngsi_ld:city:NoiseLevelObserved",
     "@type": "Interface",
-    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
+    "extends": "ngsi_ld:city:EnvironmentBaseModel",
     "displayName": "NoiseLevelObserved",
     "description": "The Noise level observed at a certain spot",
     "contents": [
@@ -52,14 +52,14 @@
             "name": "refDevice",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "ktwin:ngsi_ld:city:device"
+            "target": "ngsi_ld:city:device"
         },
         {
             "@type": "Relationship",
             "name": "refWeatherObserverd",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "ktwin:ngsi_ld:city:WeatherObserved"
+            "target": "ngsi_ld:city:WeatherObserved"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

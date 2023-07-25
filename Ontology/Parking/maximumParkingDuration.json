@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:maximumParkingDuration",
+    "@id": "ngsi_ld:city:maximumParkingDuration",
     "@type": "Interface",
     "displayName": "MaximumParkingDuration",
     "@context" : "dtmi:dtdl:context;2",

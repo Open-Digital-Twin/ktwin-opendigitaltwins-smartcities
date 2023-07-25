@@ -1,8 +1,8 @@
 {
-    "@id": "ktwin:ngsi_ld:city:WeatherObserved",
+    "@id": "ngsi_ld:city:WeatherObserved",
     "@type": "Interface",
     "@context": "dtmi:dtdl:context;2",
-    "extends": "ktwin:ngsi_ld:city:EnvironmentBaseModel",
+    "extends": "ngsi_ld:city:EnvironmentBaseModel",
     "displayName": "WeatherObserved",
     "contents": [
         {
@@ -142,7 +142,7 @@
             "name": "refDevice",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
-            "target": "ktwin:ngsi_ld:city:device"
+            "target": "ngsi_ld:city:device"
         }
     ]
 }

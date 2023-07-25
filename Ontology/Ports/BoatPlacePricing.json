@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:BoatPlacePricing",
+    "@id": "ngsi_ld:city:BoatPlacePricing",
     "@type": "Interface",
     "displayName": "Boat Place pricing",
     "description": "Global description: Work in progress for boat place pricing. Bases on sample at https://github.com/smart-data-models/dataModel.Ports/blob/master/BoatPlacesPricing/examples/example.json",
     "comment": "No official specification available yet",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -29,7 +29,7 @@
             "description": "Port that belongs to",
             "displayName": "belongs to",
             "comment": "Required relationship",
-            "target": "ktwin:ngsi_ld:city:SeaportFacilities",
+            "target": "ngsi_ld:city:SeaportFacilities",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true
@@ -39,7 +39,7 @@
             "name": "refPointOfInterest",
             "description": "Point of Interest that the element has relation to",
             "displayName": "related to",
-            "target": "ktwin:ngsi_ld:city:PointOfInterest",
+            "target": "ngsi_ld:city:PointOfInterest",
             "minMultiplicity": 0,
             "maxMultiplicity": 1,
             "writable": true

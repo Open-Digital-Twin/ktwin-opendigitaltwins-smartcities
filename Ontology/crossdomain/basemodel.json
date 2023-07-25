@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "@id": "ngsi_ld:city:NGSILDBaseModel",
     "@type": "Interface",
     "displayName": "NGSILDBaseModel",
     "contents": [
@@ -60,12 +60,12 @@
         {
             "@type": "Component",
             "name": "address",
-            "schema": "ktwin:ngsi_ld:city:Address"
+            "schema": "ngsi_ld:city:Address"
         },
         {
             "@type": "Component",
             "name": "location",
-            "schema": "ktwin:ngsi_ld:city:geoLocation"
+            "schema": "ngsi_ld:city:geoLocation"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

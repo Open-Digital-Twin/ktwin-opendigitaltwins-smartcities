@@ -1,10 +1,10 @@
 {
-    "@id": "ktwin:ngsi_ld:city:Store",
+    "@id": "ngsi_ld:city:Store",
     "@type": "Interface",
     "displayName": "Store",
     "description": "Global description: This entity Type models stores/shops in the city.",
     "comment": "Original source: https://github.com/smart-data-models/dataModel.PointOfInterest/blob/master/Store/doc/spec.md",
-    "extends": "ktwin:ngsi_ld:city:NGSILDBaseModel",
+    "extends": "ngsi_ld:city:NGSILDBaseModel",
     "contents": [
         {
             "@type": "Property",
@@ -54,7 +54,7 @@
             "name": "openingHoursSpecification",
             "displayName": "Opening hours",
             "description": "A structured value providing information about the opening hours of a place or a certain service inside a place.",
-            "schema": "ktwin:ngsi_ld:city:OpeningHourSpecification"
+            "schema": "ngsi_ld:city:OpeningHourSpecification"
         },
         {
             "@type": "Property",

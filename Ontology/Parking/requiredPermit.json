@@ -1,5 +1,5 @@
 {
-    "@id": "ktwin:ngsi_ld:city:requiredPermit",
+    "@id": "ngsi_ld:city:requiredPermit",
     "@type": "Interface",
     "displayName": "RequiredPermit",
     "@context" : "dtmi:dtdl:context;2",
