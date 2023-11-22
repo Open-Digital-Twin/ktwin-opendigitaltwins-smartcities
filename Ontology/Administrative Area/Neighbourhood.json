@@ -5,7 +5,41 @@
     "extends": "s4city:city:AdministrativeArea",
     "description": "A neighbourhood (British English), or neighborhood (American English; see spelling differences), is a geographically localised community within a larger city, town, suburb or rural area. (https://en.wikipedia.org/wiki/Neighbourhood)",
     "contents": [
-        
+        {
+            "@type": "Property",
+            "name": "aqiLevel",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "dateObserved",
+            "schema": "datetime",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "name": "citypoles",
+            "description": "The list of city poles in the neighborhood",
+            "target": "city-pole"
+        },
+        {
+            "@type": "Command",
+            "name": "updateairqualityindex",
+            "comment": "Command used update the air quality index in the neighborhood",
+            "request": {
+                "name": "updateAirQualityIndexRequest",
+                "schema": {
+                    "@type": "Object",
+                    "fields": [
+                        {
+                            "name": "aqiLevel",
+                            "schema": "string"
+                        }
+                    ]
+                }
+            }
+        }
     ],
     "@context": "dtmi:dtdl:context;2"
 }
