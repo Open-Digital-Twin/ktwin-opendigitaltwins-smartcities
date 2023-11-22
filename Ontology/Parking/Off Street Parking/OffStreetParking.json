@@ -757,6 +757,27 @@
             "name": "refParkingSpot",
             "minMultiplicity": 0,
             "target": "ngsi_ld:city:ParkingSpot"
+        },
+        {
+            "@type": "Command",
+            "name": "updatevehiclecount",
+            "comment": "Command used to increment or decrement the number of available vehicles in the parking",
+            "request": {
+                "name": "updateVehicleCountRequest",
+                "schema": {
+                    "@type": "Object",
+                    "fields": [
+                        {
+                            "name": "vehicleEntranceCount",
+                            "schema": "integer"
+                        },
+                        {
+                            "name": "vehicleExitCount",
+                            "schema": "integer"
+                        }
+                    ]
+                }
+            }
         }
     ]
 }
