@@ -19,9 +19,21 @@
         },
         {
             "@type": "Relationship",
-            "name": "citypoles",
+            "name": "refCityPoles",
             "description": "The list of city poles in the neighborhood",
-            "target": "city-pole"
+            "target": "city:Pole"
+        },
+        {
+            "@type": "Relationship",
+            "name": "refOffStreetParking",
+            "description": "The list of off street parking in the neighborhood",
+            "target": "ngsi_ld:city:OffStreetParking"
+        },
+        {
+            "@type": "Relationship",
+            "name": "refOnStreetParking",
+            "description": "The list of on street parking in the neighborhood",
+            "target": "ngsi_ld:city:OnStreetParking"
         },
         {
             "@type": "Command",

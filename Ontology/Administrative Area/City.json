@@ -5,7 +5,12 @@
     "extends": "s4city:city:AdministrativeArea",
     "description": "A city is a large human settlement. A city is distinguished from other human settlements by its relatively great size, but also by its functions and its special symbolic status, which may be conferred by a central authority. (https://en.wikipedia.org/wiki/City)",
     "contents": [
-
+        {
+            "@type": "Relationship",
+            "name": "refNeighborhood",
+            "description": "The list of neighborhoods of the city",
+            "target": "s4city:city:Neighborhood"
+        }
     ],
     "@context": "dtmi:dtdl:context;2"
 }
